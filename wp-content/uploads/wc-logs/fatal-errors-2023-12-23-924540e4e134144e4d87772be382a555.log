@@ -1,0 +1,16 @@
+2023-12-23T14:01:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class CCSM_Customizer does not have a method "settings_page" in /home/emeronus/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/emeronus/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/emeronus/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/emeronus/public_html/wp-admin/admin.php(259): do_action()
+#3 {main}
+  thrown in /home/emeronus/public_html/wp-includes/class-wp-hook.php on line 324
+
+2023-12-23T14:03:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class CCSM_Customizer does not have a method "settings_page" in /home/emeronus/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/emeronus/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/emeronus/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/emeronus/public_html/wp-admin/admin.php(259): do_action()
+#3 {main}
+  thrown in /home/emeronus/public_html/wp-includes/class-wp-hook.php on line 324
+
